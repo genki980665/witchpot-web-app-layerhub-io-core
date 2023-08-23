@@ -23,6 +23,8 @@
     "fabric": "^5.2.1",
     "lodash": "^4.17.21",
     "nanoid": "^3.3.3",
-    "resize-observer-polyfill": "^1.5.1"
+    "resize-observer-polyfill": "^1.5.1",
+    "rimraf": "^5.0.1",
+    "typescript": "^4.7.3"
   }
 }
