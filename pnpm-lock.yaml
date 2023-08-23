@@ -23,6 +23,12 @@ dependencies:
   resize-observer-polyfill:
     specifier: ^1.5.1
     version: 1.5.1
+  rimraf:
+    specifier: ^5.0.1
+    version: 5.0.1
+  typescript:
+    specifier: ^4.7.3
+    version: 4.9.5
 
 devDependencies:
   '@types/fabric':
@@ -31,9 +37,6 @@ devDependencies:
   '@types/lodash':
     specifier: ^4.14.182
     version: 4.14.182
-  typescript:
-    specifier: ^4.6.3
-    version: 4.6.3
 
 packages:
 
@@ -1002,12 +1005,6 @@ packages:
       punycode: 2.3.0
     dev: false
     optional: true
-
-  /typescript@4.6.3:
-    resolution: {integrity: sha512-yNIatDa5iaofVozS/uQJEl3JRWLKKGJKh6Yaiv0GLGSuhpFJe7P3SbHZ8/yjAHRQwKRoA6YZqlfjXWmVzoVSMw==}
-    engines: {node: '>=4.2.0'}
-    hasBin: true
-    dev: true
 
   /typescript@4.9.5:
     resolution: {integrity: sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==}
