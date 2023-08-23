@@ -6,8 +6,8 @@
   "types": "./dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc",
-    "prepublish": "pnpm build"
+    "build": "npx tsc -p tsconfig.json && npx rimraf src",
+    "prepublish": "pnpm run build"
   },
   "author": "Dany Boza",
   "license": "ISC",
@@ -18,8 +18,8 @@
     "typescript": "^4.6.3"
   },
   "dependencies": {
-    "@layerhub-io/objects": "workspace:^0.2.0",
-    "@layerhub-io/types": "workspace:^0.3.0+witchpot.1",
+    "@layerhub-io/objects": "^0.2.0",
+    "@layerhub-io/types": "github:genki980665/witchpot-web-app-layerhub-io-types",
     "fabric": "^5.2.1",
     "lodash": "^4.17.21",
     "nanoid": "^3.3.3",
